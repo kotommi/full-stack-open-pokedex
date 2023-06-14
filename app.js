@@ -11,13 +11,7 @@ app.get('/health', (req, res) => {
 })
 
 app.get('/version', (req, res) => {
-  res.send('working v11')
-})
-
-// eslint-disable-next-line no-unused-vars
-app.get('/error', (_req, _res) => {
-  // a comment to trigger health check
-  throw 'ERROR'
+  res.send('ex19 done')
 })
 
 app.listen(PORT, () => {
