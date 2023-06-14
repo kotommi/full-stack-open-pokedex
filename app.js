@@ -16,8 +16,7 @@ app.get('/version', (req, res) => {
 
 // eslint-disable-next-line no-unused-vars
 app.get('/error', (_req, _res) => {
-  // eslint-disable-next-line no-console
-  console.log('(:')
+  // a comment to trigger health check
   throw 'ERROR'
 })
 
