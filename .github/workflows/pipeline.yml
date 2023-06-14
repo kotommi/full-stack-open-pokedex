@@ -62,7 +62,7 @@ jobs:
     notify:
           name: Notify on discord bot
           runs-on: ubuntu-20.04
-          needs: [simple_deployment_pipeline]
+          needs: [simple_deployment_pipeline, deploy]
           steps:
               - name: Pipeline success
                 uses: rjstone/discord-webhook-notify@v1
