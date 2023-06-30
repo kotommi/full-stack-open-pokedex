@@ -1,8 +1,10 @@
 # Full Stack open CI/CD
+Used fly.io to host the app in this repo. Tried render.com on the other one.
+render.com seemed to be more simple to use and didn't require a credit card.
 
-This repository is used for the CI/CD module of the Full stack open course
+Repo for exercises 11.20-21
+https://github.com/kotommi/repo-for-pipeline
 
-Fork the repository to complete course exercises
 
 ## Commands
 
